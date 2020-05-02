@@ -1,0 +1,180 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    background-color: white;
+}
+
+.header {
+    height: 100%;
+}
+
+.address-contaner {
+    background-color: white;
+    max-width: 1024px;
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    padding: 0 60px 0 60px;
+}
+
+.address {
+    
+}
+
+.tel{
+    
+}
+
+.wallpaper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(12.jpg);
+    height: calc(100% - 190px);
+    background-size: cover;
+    background-position: center;
+}
+
+.title{
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    text-emphasis-position: absolute;
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.navmenu {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    text-align: center;
+    background-color: black;
+}
+
+.navlink {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    animation: inherit;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+
+.navmenu a:hover {
+    background-color: white;
+    color: black;
+}
+
+.navlink.active {
+    background-color: white;
+    color: black;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+.content1-contaner {
+    background-color: white;
+}
+
+.content1 {
+    margin: auto;
+    padding: 60px;
+    max-width: 1024px;
+    align-items: center;
+    justify-content: left; 
+    color: black;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+}
+
+.cotation-contaner {
+    background-color: black;
+}
+
+.cotation {
+    height: 200px;
+    width: 100%;
+    color: white;
+    padding: 60px;
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.secondary-title {
+    margin: 20px 0 20px 0;
+}
+
+.cotation-name {
+    align-self: flex-end;
+}
+
+.form1 {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.textbox {
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    font-size: 12px;
+    padding: 8px 0;
+    margin: 8px 0;
+    box-sizing: ;
+    outline: none;
+    background: none;
+    color: crimson; 
+}
+
+.text {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    font-size: 12px;
+    padding: 8px 0;
+    margin: 8px 0;
+    box-sizing: ;
+    outline: none;
+    background: none;
+    color: crimson;
+}
+
+.contactus {
+    padding-top: 20px;
+}
